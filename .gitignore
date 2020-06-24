@@ -1,0 +1,13 @@
+# variables.tf
+vars.tf
+
+# Compiled files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Directories
+.terraform/
+
+# pem key
+my.pem
