@@ -34,6 +34,6 @@ resource "aws_instance" "DB" {
   key_name = "my-ssh"
   security_groups = [ "default" ]
   tags = {
-    Name  = "web-server"
+    Name  = "db"
   }
 }
